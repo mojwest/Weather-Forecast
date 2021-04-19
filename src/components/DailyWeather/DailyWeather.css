@@ -1,0 +1,11 @@
+.single-day {
+  border: 1px solid black;
+  width: 170px;
+  text-align: center;
+  padding: 5px;
+  background-color: papayawhip;
+}
+
+.date {
+  font-weight: bold;
+}

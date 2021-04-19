@@ -1,0 +1,11 @@
+.city {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25px;
+}

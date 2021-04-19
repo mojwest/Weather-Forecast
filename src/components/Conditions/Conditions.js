@@ -2,7 +2,7 @@ import React from "react";
 import DailyWeather from "../DailyWeather/DailyWeather";
 import "./Conditions.css";
 
-const conditions = (props) => {
+const Conditions = (props) => {
   const weatherList = props.responseObj.list;
   return (
     <div>
@@ -30,4 +30,4 @@ const conditions = (props) => {
   );
 };
 
-export default conditions;
+export default Conditions;

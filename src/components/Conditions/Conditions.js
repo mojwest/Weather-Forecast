@@ -15,6 +15,8 @@ const conditions = (props) => {
           }
           {
             <div className="container">
+              {/* each list item is for 3 hour intervals, so every 8 is a 24 hour 
+			  span (the time of day will vary depending when you search) */}
               <DailyWeather day={0} list={weatherList} />
               <DailyWeather day={8} list={weatherList} />
               <DailyWeather day={16} list={weatherList} />

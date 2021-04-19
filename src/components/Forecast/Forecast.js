@@ -20,14 +20,14 @@ const Forecast = () => {
 
   return (
     <div>
-      <h2>Lookup Local Weather Forecast:</h2>
+      <h2>Local Weather Forecast Search:</h2>
       <form onSubmit={getForecast}>
         <input
           type="text"
           placeholder="Enter City"
           maxLength="50"
           value={city}
-          className="textInput"
+          className="text-input"
           onChange={(e) => setCity(e.target.value)}
         />
         <label className="radio">

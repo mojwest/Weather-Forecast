@@ -1,1 +1,1 @@
-Simple weather app build using react. Displays five day forecast.
+Simple weather app built using react. Displays five day forecast.

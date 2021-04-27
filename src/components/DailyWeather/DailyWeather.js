@@ -4,7 +4,6 @@ import "./DailyWeather.css";
 const DailyWeather = (props) => {
   return (
     <>
-      {console.log(props.list)}
       <div className="single-day">
         <p className="date">{props.list[props.day].dt_txt.substring(0, 10)}</p>
         {Math.round(props.list[props.day].main.temp)} degrees{" "}
